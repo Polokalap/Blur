@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "blur",
+  "version": "${version}",
+  "name": "Blur",
+  "description": "Motion blur mod",
+  "authors": ["Polokalap"],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/blur/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "mel.Polokalap.blur.client.MainClient"
+    ],
+    "main": [
+      "mel.Polokalap.blur.Main"
+    ]
+  },
+  "mixins": [
+    "blur.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "1.21.*",
+    "satin": "*",
+    "modmenu": "*",
+    "owo-lib": "*"
+  }
+}

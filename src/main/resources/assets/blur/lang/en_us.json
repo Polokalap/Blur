@@ -1,0 +1,10 @@
+{
+  "text.config.blur-main-config.title": "Blur.",
+  "text.config.blur-main-config.option.ENABLE": "Toggle",
+  "text.config.blur-main-config.option.MOTIONBLUR_AMOUNT": "Amount",
+  "text.config.blur-main-config.option.SMART_MOTIONBLUR": "Smart Blur",
+  "text.config.blur-main-config.option.DISABLE_MOTIONBLUR_LIMIT": "Minimum Blur",
+  "text.config.blur-main-config.option.ACTIVE_MOTION_BLUR": "Active MotionBlur",
+  "text.config.blur-main-config.section.MotionBlurMain": "MotionBlur Options",
+  "text.config.blur-main-config.section.MotionBlurSettings": "MotionBlur Settings"
+}
